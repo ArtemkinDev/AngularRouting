@@ -1,0 +1,68 @@
+.page-wrapper {
+	display: flex;
+	flex-direction:column;
+	min-height:100%;
+}
+/*
+-----------------------------------------------
+1. header style
+-----------------------------------------------
+*/
+header {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	align-items:center;
+    background-color: #369;
+}
+.logo h1{
+	padding: 10px;
+	margin: 0;
+	color:#fff;
+}
+.page-navigation-menu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.page-navigation-menu li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+.page-navigation-menu li a{
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: #fff;
+}
+
+/*
+-----------------------------------------------
+3. main style
+-----------------------------------------------
+*/
+main {
+	flex:1;
+	padding: 25px;
+}
+
+/*
+-----------------------------------------------
+3. footer style
+-----------------------------------------------
+*/
+footer {
+	background-color: #369;
+	text-align: center;
+	color: #fff;
+}
+footer h3 {
+	padding: 10px;
+	margin: 0;
+}
+footer p {
+	padding: 5px;
+	margin: 0;
+}
